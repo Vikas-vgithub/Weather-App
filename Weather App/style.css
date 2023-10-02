@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    
+}
+
+.cont1{
+    position: absolute;
+    top:200px;
+    left:10%;
+}
+.cont1 h1{
+    font-size: 60px;
+    font-weight: bolder;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+}
+
+#city{
+    width:500px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#search{
+    position: absolute;
+    background-color: #95ff00;
+    font-size: 18px;
+    padding: 7px;
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    left: 30%;
+    top: 100%;
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder {
+    text-align: center;
+  }
+
+#search:hover{
+    color: skyblue;
+    background-color: black;
+}
+.cont1 h1 span{
+    color:brown;
+
+}
+
+.cont2{
+    position: absolute;
+    top:200px;
+    left: 60%;
+}
+
+.card{
+    border: 1px solid;
+    position: absolute;
+    background: url(cloud.jpg);
+    filter: brightness(90%);
+    box-shadow: 5px 10px 18px skyblue;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.card h1{
+    position: absolute;
+    left: 28%;
+    top: 3%;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cont2{
+        top: 600px;
+        left: 100px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .cont2{
+        top: 600px;
+        left: 60px;
+    }
+    #search{
+        left: 20px;
+        width: 80px;
+    }
+    
+  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cont1">
+            <div>
+                <h1>Let's get information of <br>your <span>City</span></h1>
+                <div class="main">
+                    <input type="text" name="city" id="city" placeholder="Enter City Name" required>
+                    <button id="search">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="cont2">
+
+            <div class="card">
+                <h1 style="color: #1f5624;">Weather Info</h1>
+                <div class="info">
+                    <h2>City:</h2>
+                    <h2 id="city-name" style="color: #e09513;font-weight: 6000;"><b>----</b></h2>
+                </div>
+                <div class="info">
+                    <h2>Region:</h2>
+                    <h2 id="city-reg" style="color: #e09513;font-weight: 6000;"><b>----</b></h2>
+                </div>
+                <div class="info">
+                    <h2>Country:</h2>
+                    <h2 id="city-country" style="color: #e09513;font-weight: 6000;"><b>----</b></h2>
+                </div>
+                <div class="info">
+                    <h2>LocalTime:</h2>
+                    <h2 id="city-time" style="color: #e09513;font-weight: 6000;"><b>----</b></h2>
+                </div>
+                <div class="info">
+                    <h2>Temperature:</h2>
+                    <h2 id="city-temp" style="color: #e09513;font-weight: 6000;"><b>----</b></h2>
+                </div>
+                <div class="info">
+                    <h2>Humidity:</h2>
+                    <h2 id="city-humi" style="color: #e09513;font-weight: 6000;"><b>----</b></h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
